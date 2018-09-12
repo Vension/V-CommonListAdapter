@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/cl_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_refresh_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刷新数据"
+            />
+        <Button
+            android:id="@+id/btn_add_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增一条数据"/>
+        <Button
+            android:id="@+id/btn_add_moredata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新增多条数据"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cl_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cl_button"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_remove_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除某一条数据"/>
+        <Button
+            android:id="@+id/btn_clear_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清空数据"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cl_button2"
+        tools:listitem="@layout/item_list"/>
+
+</android.support.constraint.ConstraintLayout>

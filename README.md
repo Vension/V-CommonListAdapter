@@ -23,7 +23,7 @@
 
 ## Preview
 <p>
-    <img src="ScreenShot/GIF.gif" width="30%" height="30%">
+    <img src="https://github.com/Vension/V-CommonListAdapter/blob/master/ScreenShot/GIF.gif" width="30%" height="30%">
 </p>
 <p>
    <img src="ScreenShot/1539577702.jpg" width="30%" height="30%">

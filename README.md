@@ -1,6 +1,6 @@
 
 <p align="center">
-   <a href="https://bintray.com/jessyancoding/maven/autosize/_latestVersion">
+   <a href="https://bintray.com/vension/vensionCenter/CommonListAdapter/_latestVersion">
     <img src="https://img.shields.io/badge/Jcenter-v1.0.0-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
   </a>
   <a href="https://travis-ci.org/Vension/V-CommonListAdapter">

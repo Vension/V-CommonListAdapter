@@ -20,6 +20,9 @@
   </a>
 </p>
 
+# V-CommonListAdapter [ ![Download](https://api.bintray.com/packages/vension/vensionCenter/CommonListAdapter/images/download.svg) ](https://bintray.com/vension/vensionCenter/CommonListAdapter/_latestVersion)
+
+
 
 ## Preview
 <p>

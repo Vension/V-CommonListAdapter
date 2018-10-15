@@ -1,13 +1,13 @@
 
 <p align="center">
    <a href="https://bintray.com/vension/vensionCenter/CommonListAdapter/_latestVersion">
-    <img src="https://img.shields.io/badge/Jcenter-v1.0.0-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
+    <img src="https://img.shields.io/badge/Jcenter-v1.0.2-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
   </a>
   <a href="https://travis-ci.org/Vension/V-CommonListAdapter">
     <img src="https://travis-ci.org/Vension/V-CommonListAdapter.svg?branch=master" alt="Build Status" />
   </a>
   <a href="https://developer.android.com/about/versions/android-4.0.html">
-    <img src="https://img.shields.io/badge/API-14%2B-blue.svg?style=flat-square" alt="Min Sdk Version" />
+    <img src="https://img.shields.io/badge/API-15%2B-blue.svg?style=flat-square" alt="Min Sdk Version" />
   </a>
   <a href="http://www.apache.org/licenses/LICENSE-2.0">
     <img src="http://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square" alt="License" />

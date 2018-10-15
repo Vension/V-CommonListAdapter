@@ -26,16 +26,16 @@
     <img src="ScreenShot/GIF.gif" width="30%" height="30%">
 </p>
 <p>
-   <img src="ScreenShot/1536309289.jpg" width="30%" height="30%">
-   <img src="ScreenShot/1536309324.jpg" width="30%" height="30%">
-   <img src="ScreenShot/1536309349.jpg" width="30%" height="30%">
+   <img src="ScreenShot/1539577702.jpg" width="30%" height="30%">
+   <img src="ScreenShot/1539577749.jpg" width="30%" height="30%">
+   <img src="ScreenShot/1539577788.jpg" width="30%" height="30%">
 </p>
 
 
 ## Download
 
 ``` gradle
- implementation 'com.vension:CommonListAdapter:1.0.1'
+ implementation 'me.vension:CommonListAdapter:1.0.2'
 ```
 
 ## Usage
@@ -59,8 +59,9 @@ val mList = ArrayList<TestBean>()
 ```
 
 ## update
-* **V1.0.0**: <首次提交Java版本>
+* **V1.0.2**: <修改构造方法参数>
 * **V1.0.1**: <新增kotlin版本>
+* **V1.0.0**: <首次提交Java版本>
 
 
 ## About Me

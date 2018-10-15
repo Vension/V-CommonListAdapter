@@ -26,10 +26,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn_clear_data.setOnClickListener(this)
         val mList = ArrayList<TestBean>()
         for (i in 0..5) {
-            val mBean = TestBean( R.drawable.image_03,"我是标题$i", "我是简介$i")
+            val mBean = TestBean( R.drawable.icon_list,"我是标题$i", "我是简介$i")
             mList.add(mBean)
         }
-        mAdapter = object :CommonListAdapterForKotlin<TestBean>(this,mList,R.layout.item_list){
+        mAdapter = object :CommonListAdapterForKotlin<TestBean>(this,R.layout.item_list,mList){
             override fun convert(holder: CommonListViewHolderForKotlin, position: Int, item: TestBean) {
                 holder.setImageResource(R.id.iv_image,item.imageRes)
                 holder.setText(R.id.tv_title,item.title)
@@ -76,14 +76,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun addData() {
-        val mBean = TestBean( R.drawable.image_01,"我是标题-新增一条", "我是简介-新增一条")
+        val mBean = TestBean( R.drawable.icon_list,"我是标题-新增一条", "我是简介-新增一条")
         mAdapter?.addItem(true,mBean)
     }
 
     private fun addMoreData() {
         val mList = ArrayList<TestBean>()
         for (i in 0..3) {
-            val mBean = TestBean( R.drawable.image_02,"我是标题-新增多条$i", "我是简介-新增多条$i")
+            val mBean = TestBean( R.drawable.icon_list,"我是标题-新增多条$i", "我是简介-新增多条$i")
             mList.add(mBean)
         }
         mAdapter?.addData(true,mList)
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun refreshData() {
         val mList = ArrayList<TestBean>()
         for (i in 0..5) {
-            val mBean = TestBean( R.drawable.image_03,"我是标题-刷新$i", "我是简介-刷新$i")
+            val mBean = TestBean( R.drawable.icon_list,"我是标题-刷新$i", "我是简介-刷新$i")
             mList.add(mBean)
         }
         mAdapter?.setListDatas(mList)

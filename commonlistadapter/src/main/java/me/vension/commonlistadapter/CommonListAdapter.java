@@ -22,10 +22,10 @@ public abstract class CommonListAdapter<T> extends BaseAdapter {
 	protected List<T> listDatas = new ArrayList<>();//存放数据集合
 	protected int mLayoutId;//item布局
 
-	public CommonListAdapter(Context context, List<T> data, int layoutId){
+	public CommonListAdapter(Context context,int layoutId,List<T> data){
 		this.mContext = context;
-		this.listDatas = data;
 		this.mLayoutId = layoutId;
+		this.listDatas = data;
 	}
 
 	public CommonListAdapter(Context context, int layoutId){

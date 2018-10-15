@@ -14,7 +14,7 @@ import java.util.*
  * ========================================================
  */
 
-abstract class CommonListAdapterForKotlin<T> : BaseAdapter{
+open abstract class CommonListAdapterForKotlin<T> : BaseAdapter{
 
     private var mContext: Context//上下文
     private var listDatas = ArrayList<T>()//存放数据集合
@@ -25,10 +25,10 @@ abstract class CommonListAdapterForKotlin<T> : BaseAdapter{
         this.mLayoutId = mLayoutId
     }
 
-     constructor(mContext: Context, listDatas: ArrayList<T>, mLayoutId: Int) {
+     constructor(mContext: Context, mLayoutId: Int, listDatas: ArrayList<T>) {
         this.mContext = mContext
-        this.listDatas = listDatas
-        this.mLayoutId = mLayoutId
+         this.mLayoutId = mLayoutId
+         this.listDatas = listDatas
     }
 
     override fun getCount(): Int {

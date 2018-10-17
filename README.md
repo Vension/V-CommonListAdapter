@@ -1,5 +1,3 @@
-# V-CommonListAdapter [ ![Download](https://api.bintray.com/packages/vension/vensionCenter/CommonListAdapter/images/download.svg) ](https://bintray.com/vension/vensionCenter/CommonListAdapter/_latestVersion)
-
 <p align="center">
    <a href="https://bintray.com/vension/vensionCenter/CommonListAdapter/_latestVersion">
     <img src="https://img.shields.io/badge/Jcenter-V1.0.2-brightgreen.svg?style=flat-square" alt="Latest Stable Version" />
@@ -34,10 +32,10 @@
 </p>
 
 
-## Download
+## Download [ ![Download](https://api.bintray.com/packages/vension/vensionCenter/CommonListAdapter/images/download.svg) ](https://bintray.com/vension/vensionCenter/CommonListAdapter/_latestVersion)
 
 ``` gradle
- implementation 'me.vension:CommonListAdapter:1.0.2'
+ implementation 'com.vension:CommonListAdapter:1.0.2'
 ```
 
 ## Usage
